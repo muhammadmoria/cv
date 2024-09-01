@@ -1,0 +1,65 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+.resume-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.resume-table td, .resume-table th {
+    border: 2px solid #007bff; /* Blue border for a prominent look */
+    padding: 15px;
+    text-align: left;
+}
+
+.resume-table .header {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.resume-table .header h1 {
+    margin: 0;
+}
+
+.resume-table .header p {
+    margin: 5px 0;
+}
+
+.resume-table .section-title {
+    background-color: #f4f4f9;
+    font-weight: bold;
+}
+
+.resume-table a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.resume-table a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
